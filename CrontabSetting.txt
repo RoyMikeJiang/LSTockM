@@ -1,0 +1,4 @@
+0 5 * * 2-6 python /root/LSTockM/AutomaticUpdateData/price.py > /root/LSTockM/AutomaticUpdateData/logs/price_update.log
+30 5 * * 2-6 python /root/LSTockM/AutomaticUpdateData/predict.py > /root/LSTockM/AutomaticUpdateData/logs/predict.log
+0 3 * * * python /root/LSTockM/AutomaticUpdateData/recommendations.py > /root/LSTockM/AutomaticUpdateData/logs/rcmd_update.log
+*/20 * * * * python /root/LSTockM/AutomaticUpdateData/current_price.py > /root/LSTockM/AutomaticUpdateData/logs/cur_price_update.log

@@ -1,0 +1,6 @@
+__pycache__
+backend/utils/StaticConfig.py
+backend/run.sh
+Pipfile
+frontend/dist
+frontend/nodel_modules
